@@ -1,0 +1,31 @@
+# Bad Naming
+Salah penamaan dapat membuat refractor code yang cukup lama
+
+Bad Naming ada 6 → Encoding, Disinformation, Mental Mapping, Cute Word/Joker, Punning, Gratuitous (rujukan di buku satin)
+
+1. Disinformation / Meaningless Naming → ambiguitas
+- Naming → nama tidak merepresentasikan fungsinya
+- Content → contohnya di generatePrime ppt pak adam
+2. Encoding
+Zaman dulu pake singkatan kek iAge (int Age), ada lagi mCustomer. Kalau perusahaan mau pake encoding, harus disiapkan dokumentasi yang jelas.
+3. Mental Mapping
+pake singkatan, kaya b (base) dan h (height)
+4. Cute Words & Jokes
+kaya variabel prabowo nya pas tino
+5. Punning
+Menggunakan nama yang sama, tapi fungsinya beda (kaya addProduct dan add Number tapi nama fungsinya add doang)
+6. Gratuitous Context
+
+# Good Naming
+
+Sebuah code yang dapat dipahami programmer lain sekalipun tanpa dokumentasi berjilid - jilid.
+
+1. Intention Revealing
+Penulisannya bisa memahami konteksnya apa
+2. One Word per Concept
+3. Pronounciable
+Namanya bisa dibaca, jangan kek playerscr, custmrItem
+4. Searchable
+Mengurangi magic number, seperti year < 150, lebih baik 150 ini dijadikan konstanta
+5. Problem Domain Name
+6. Solution Domain Name
